@@ -8,3 +8,91 @@ body {
   margin: 0;
   text-align: center;
 }
+.search_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0px;
+}
+.subject_wrap {
+  width: 1200px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 32px;
+}
+.subject_wrap .input_wrap {
+  display: flex;
+  gap: 12px;
+}
+.input_wrap > input {
+  width: 300px;
+  padding: 4px 16px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.input_wrap > .search_btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #3b87f6;
+  color: #fff;
+  border: none;
+}
+.input_wrap > .search_btn:hover {
+  filter: brightness(1.1);
+}
+/* */
+.input_wrap > button:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+  filter: brightness(0.9);
+}
+.ul_list {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0px;
+  padding: 12px 0px;
+  padding-top: 0;
+  border-bottom: 1px solid #888;
+}
+.subject_no {
+  width: 8%;
+}
+.subject_title {
+  width: 35%;
+}
+.subject_instructor {
+  width: 15%;
+}
+.subject_category {
+  width: 14%;
+}
+.subject_level {
+  width: 14%;
+}
+.subject_count {
+  width: 14%;
+}
+.subject_list_wrap {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.ul_title {
+  background-color: #3b87f6;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 12px;
+  border: none;
+}
+.filter_wrap {
+  display: flex;
+  gap: 12px;
+}
+.filter_wrap > select {
+  width: fit-content;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 8px;
+  border-radius: 8px;
+}
